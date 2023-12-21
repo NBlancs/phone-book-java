@@ -1,5 +1,3 @@
-package phonebook;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -17,20 +15,13 @@ public class Main {
 		System.out.println("PRESS 5 to Exit Program\n");
 		
 		System.out.print("Input: ");
-
-
-
 	}
-	
-	
-	
 	
 	public static void main(String[] args) {
 		
 		ArrayList<PhoneBookDetails> information = new ArrayList<>();
 		information.add(new PhoneBookDetails("noel","blanco", "student",12321,"malaybalay city","asmdn@gmail.com"));
-		
-		
+			
 		// This is the order of the ArrayList
 		
 		// FirstName
